@@ -1,0 +1,61 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    
+  background-color: rgb(255, 255, 255);
+}
+.intro{
+  margin: -74px;
+  padding-top: 94px;
+  padding-left: 7%;
+  position: fixed;
+}
+.lngage{
+    position: fixed;
+    color: aliceblue;
+    padding-left: 64px;
+    font-size: x-small;
+    padding-top: 23px;
+}
+.menu-bar {
+    margin: -9px;
+    padding-left: 74%;
+    text-decoration: none;
+    font-size: smaller;
+    background: rgba(0, 0, 0, 0.872);
+    padding-bottom: 1px;
+    padding-top: 2px;
+}
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+}
+.menu-bar ul li {
+  padding: 10px 20px;
+  position: relative;
+}
+.menu-bar ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.menu-bar ul li a:hover {
+  color: rgba(235, 125, 0, 0.758);
+}
+.mainpage{
+  padding-top: 9%;
+  padding-left: 40%;
+  font-size: xxx-large;
+}
+.container {
+  width: 31%;
+  padding-top: 7%;
+  padding-left: 32%;
+  text-align: center;
+}
+.col-sm-4 a{
+  line-height: 40px;
+    text-decoration: none;
+    color: black;
+}

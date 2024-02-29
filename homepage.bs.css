@@ -1,0 +1,114 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+.intro{
+  margin: -74px;
+  padding-top: 94px;
+  padding-left: 7%;
+  position: fixed;
+}
+.lngage{
+    position: fixed;
+    color: aliceblue;
+    padding-left: 64px;
+    font-size: x-small;
+    padding-top: 23px;
+}
+.menu-bar {
+    margin: -9px;
+    padding-left: 74%;
+    text-decoration: none;
+    font-size: smaller;
+    background: rgba(0, 0, 0, 0.872);
+    padding-bottom: 0.5%;
+    padding-top: 2px;
+}
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+}
+.menu-bar ul li {
+  padding: 10px 20px;
+  position: relative;
+}
+.menu-bar ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.menu-bar ul li a:hover {
+  color: rgba(235, 125, 0, 0.758);
+}
+.img4{
+  padding-left: 1%;
+  padding-top: 2.5%;
+  margin: -3%;
+}
+.mater2{
+    color: rgb(0, 0, 0);
+    padding-left: 17%;
+    padding-top: 10%;
+    font-size: xx-large;
+    float: left;
+}
+.mater1{
+    padding-left: 38%;
+    float: right;
+    padding-right: 17%;
+    font-size: small;
+    margin-top: -48px;
+    line-height: 26px;
+}
+.matter3{
+    color: rgb(0, 0, 0);
+    padding-left: 17%;
+    padding-top: 13%;
+    font-size: xx-large;
+    float: left;
+    padding-bottom: 8%;
+}
+.moveres{
+  margin: -93px;
+  color: #00171F;
+  padding-left: 24%;
+  padding-top: 4%;
+  font-size: large;
+}
+.othervehicels{
+  font-size: x-large;
+    padding-top: 9%;
+    padding-left: 2%;
+}
+video {
+  padding-top: 4.5%;
+  margin-left: 11%;
+  width: 79%;
+}
+.container{
+    display: flex;
+    background-color: white;
+    padding-top: 7%;
+}
+.container .card{
+    height: 1px;
+    background: #c9c9c9;
+    margin: 72px 40px;
+    display: flex;
+}
+.container .card .imgBx{
+	position: relative;
+	width:260px;
+	height: 260px;
+	top: -60px;
+	left:20px;
+	box-shadow: 0 5px 20px rbga (0,0,0,1.2);
+
+}
+.container .card .imgBx img
+{
+	max-width: 100%;
+	border-radius: 10px;
+}
